@@ -1,11 +1,5 @@
 {
-  "*.{js,jsx,ts,tsx}": [
-    "eslint --ignore-path .gitignore --fix",
-    "prettier --write --ignore-unknown"
-  ],
-  "*.{css,scss}": [
-    "stylelint --allow-empty-input --ignore-path .gitignore",
-    "prettier --write --ignore-unknown"
-  ],
-  "!**/node_modules/**": ""
+  "*.{ts,tsx}": ["eslint --cache --fix", "prettier --write"],
+  "*.{scss,css}": ["stylelint --fix", "prettier --write"],
+  "*.md": ["prettier --write"]
 }
