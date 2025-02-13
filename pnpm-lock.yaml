@@ -39,9 +39,18 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^8.24.0
         version: 8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
+      '@unocss/preset-attributify':
+        specifier: ^65.4.3
+        version: 65.4.3
+      '@unocss/preset-uno':
+        specifier: ^65.4.3
+        version: 65.4.3
       '@unocss/reset':
         specifier: ^65.4.3
         version: 65.4.3
+      '@unocss/vite':
+        specifier: ^65.4.3
+        version: 65.4.3(rollup@4.34.6)(vite@6.1.0(@types/node@22.13.2)(jiti@2.4.2)(sass@1.84.0)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       '@vitejs/plugin-react':
         specifier: ^4.3.4
         version: 4.3.4(vite@6.1.0(@types/node@22.13.2)(jiti@2.4.2)(sass@1.84.0)(tsx@4.19.2)(yaml@2.7.0))
