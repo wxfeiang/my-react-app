@@ -1,6 +1,5 @@
 {
-
-     // 默认格式化工具选择prettier
+  // 默认格式化工具选择prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // 保存的时候自动格式化
   "editor.formatOnSave": true,
@@ -50,7 +49,7 @@
     "WechatMiniprogram"
   ],
   "typescript.tsdk": "node_modules\\typescript\\lib",
-    // 控制相关文件嵌套展示
+  // 控制相关文件嵌套展示
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
@@ -59,7 +58,7 @@
     "*.env": "$(capture).env.*",
     "CHANGELOG.md": "CHANGELOG*",
     "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,CNAME,README*,.npmrc,.browserslistrc",
-    ".stylelintignore": ".eslintignore, commitlint.config.js , eslint.config.js ,.prettierignore,.stylelintignore,.commitlintrc.*,.prettierrc.*,.stylelintrc.*,.eslintrc-auto-import.json, .editorconfig, .commitlint.cjs",
+    ".stylelintignore": ".eslintignore, commitlint.config.js , eslint.config.js ,.prettierignore,.stylelintignore,.commitlintrc.*,.prettierrc.*,.stylelintrc.*,.eslintrc-auto-import.json, .editorconfig, .commitlint.cjs ,.release-it.json",
     "vite.config.ts": "tsconfig.*.json,uno.config.ts,tsconfig.json,uni-pages.d.ts",
     "manifest.config.ts": "manifest.config.ts,pages.config.ts"
   }
