@@ -9,6 +9,7 @@
     "publish": false
   },
   "hooks": {
+    "before:bump": "pnpm run build",
     "after:bump": "echo 更新版本成功"
   },
   "plugins": {
@@ -16,5 +17,6 @@
       "preset": "angular",
       "infile": "CHANGELOG.md"
     }
-  }
+  },
+  "increment": "patch"
 }
