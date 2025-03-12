@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && release-it  && vite build ",
+    "build": "tsc -b && release-it && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "commit": "git add . && czg && git push",
