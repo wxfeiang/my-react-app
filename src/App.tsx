@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        nihao
+        当前版本号 ： {import.meta.env.PACKAGE_VERSION}
         <div className='bg-#1890ff text-#000 h-100px w-100px border-1px border-#000  mr-10px ml-20px mt-30px mb-40px' onClick={() => {
           console.log('nihao')
         }} >adasdc</div>
