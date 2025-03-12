@@ -1,4 +1,7 @@
 {
+  "build": {
+    "command": "pnpm run build"
+  },
   "github": {
     "release": true
   },
@@ -9,6 +12,7 @@
     "publish": false
   },
   "hooks": {
+    "before:init": "echo '操作是否配置版本号相关：'",
     "before:bump": "pnpm run build",
     "after:bump": "echo 更新版本成功"
   },
