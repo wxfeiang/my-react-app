@@ -16,7 +16,7 @@
   },
   "hooks": {
     "before:init": "echo '操作是否配置版本号相关'",
-    "before:bump": "pnpm run build",
+    "before:bump": "pnpm build",
     "after:bump": "echo 更新版本成功"
   },
   "plugins": {
