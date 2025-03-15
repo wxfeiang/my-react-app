@@ -20,8 +20,12 @@
   },
   "plugins": {
     "@release-it/conventional-changelog": {
+      "emoji": true,
+      "emojiPosition": "before",
       "preset": "angular",
-      "infile": "CHANGELOG.md"
+      "infile": "CHANGELOG.md",
+      "ignoreRecommendedBump": true,
+      "strictSemVer": true
     }
   },
   "increment": "patch"
